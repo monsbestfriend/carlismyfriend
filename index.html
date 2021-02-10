@@ -14,10 +14,17 @@
         <br>
         Would you like to try some of my 
         <br>
-        <img src="cwoissant.png"/>
+        <img src="cwoissant.png" width=200 height=200/>
         <br>
-        <button>
+        <button onclick="wouldLike()">
             I would like to try
         </button>
     </body>
+
+    <script>
+        function wouldLike() {
+            var audio = new Audio('carl.mp3');
+            audio.play();
+        }
+    </script>
 </html>
